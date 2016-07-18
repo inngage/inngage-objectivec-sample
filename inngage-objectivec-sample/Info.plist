@@ -4,10 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Utilizaremos geolocalização para lhe enviar notificações orientadas pela sua localização.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Utilizaremos geolocalização para lhe enviar notificações orientadas pela sua localização.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -25,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>InngageAppToken</key>
-	<string></string>
+	<string>45ca292644b422c7c9bb5f1ed9c766e9</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -38,6 +34,10 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Utilizaremos geolocalização para lhe enviar notificações orientadas pela sua localização.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Utilizaremos geolocalização para lhe enviar notificações orientadas pela sua localização.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

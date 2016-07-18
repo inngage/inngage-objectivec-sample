@@ -14,8 +14,8 @@
 		69176F731D3BB851007F2E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69176F721D3BB851007F2E34 /* Assets.xcassets */; };
 		69176F761D3BB851007F2E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69176F741D3BB851007F2E34 /* LaunchScreen.storyboard */; };
 		69176F811D3BB851007F2E34 /* inngage_objectivec_sampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69176F801D3BB851007F2E34 /* inngage_objectivec_sampleUITests.m */; };
-		6917D41C1D3BD31D009BCA4C /* PushNotificationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6917D41B1D3BD31D009BCA4C /* PushNotificationManager.framework */; };
-		6917D41D1D3BD31D009BCA4C /* PushNotificationManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6917D41B1D3BD31D009BCA4C /* PushNotificationManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		696B0FBD1D3C0C0900F63FC7 /* PushNotificationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696B0FBC1D3C0C0900F63FC7 /* PushNotificationManager.framework */; };
+		696B0FBE1D3C0C0900F63FC7 /* PushNotificationManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 696B0FBC1D3C0C0900F63FC7 /* PushNotificationManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6917D41D1D3BD31D009BCA4C /* PushNotificationManager.framework in Embed Frameworks */,
+				696B0FBE1D3C0C0900F63FC7 /* PushNotificationManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 		69176F7C1D3BB851007F2E34 /* inngage-objectivec-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inngage-objectivec-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69176F801D3BB851007F2E34 /* inngage_objectivec_sampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inngage_objectivec_sampleUITests.m; sourceTree = "<group>"; };
 		69176F821D3BB851007F2E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6917D41B1D3BD31D009BCA4C /* PushNotificationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PushNotificationManager.framework; sourceTree = "<group>"; };
+		696B0FBC1D3C0C0900F63FC7 /* PushNotificationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PushNotificationManager.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6917D41C1D3BD31D009BCA4C /* PushNotificationManager.framework in Frameworks */,
+				696B0FBD1D3C0C0900F63FC7 /* PushNotificationManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		69176F5A1D3BB851007F2E34 = {
 			isa = PBXGroup;
 			children = (
-				6917D41B1D3BD31D009BCA4C /* PushNotificationManager.framework */,
+				696B0FBC1D3C0C0900F63FC7 /* PushNotificationManager.framework */,
 				69176F651D3BB851007F2E34 /* inngage-objectivec-sample */,
 				69176F7F1D3BB851007F2E34 /* inngage-objectivec-sampleUITests */,
 				69176F641D3BB851007F2E34 /* Products */,
